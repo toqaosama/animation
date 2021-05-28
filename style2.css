@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+.f-div {
+
+    
+
+}
+
+.s-div {
+    width: 500px;
+    height: 500px;
+    background-image: url(./unnamed\ \(1\).png);
+    position: absolute;
+    top: 200px;
+    right: 700px;
+
+
+}
+
+
+
+img{
+width: 150px;
+    position: absolute;
+    top: 50px;
+    left: 300px;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+left: 0px;
+}
+
+
+@keyframes move{
+
+25%{
+    top: 100%;
+}
+
+}
